@@ -38,8 +38,7 @@ The file size check function works as follows:
 ### File Reading Functions
 
 We made sure that there are no issues with newline characters and the reading of characters and strings.
-
-On lines 43 and 44, a problem occurred due to the IDE. In Visual Studio 2022, when I only used `file.ignore()`, it created the output files exactly as in those on Git, but I didn't get full points. When I switched to Visual Studio Code and ran the program, the files were created incorrectly. So, I added another `file.ignore()`, because I noticed that instead of reading a name, it was reading a newline.
+You might have problems with the files reading because of the IDE, I used Microsoft Visual Studio 2022.
 
 ### Stock Processing Function
 
