@@ -61,7 +61,4 @@ int main(int argc, char* argv[])
     gout.close();
 
     return 0;
-
-    //TODO: nu scrieti cod functional aici, implementati clasele sau functii care sa rezolve
-    // pastrati main-ul cat mai curat si simplu de inteles
 }
